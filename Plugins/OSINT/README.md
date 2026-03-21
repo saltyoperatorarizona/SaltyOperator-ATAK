@@ -1,47 +1,32 @@
 # OSINT Plugin for ATAK
 
-An ATAK plugin for Open Source Intelligence (OSINT) operations. Designed for use worldwide.
+**Version:** 5.6 — ATAK-CIV
 
 ---
 
-## Overview
+## About This Plugin
 
-This plugin integrates OSINT capabilities directly into ATAK, allowing operators to gather and visualize open-source intelligence data without leaving the ATAK environment. It is platform-agnostic and can be used anywhere in the world.
+OSINT is a free, open source intelligence feed aggregator for ATAK. It allows operators to consolidate multiple OSINT streams — news, threat intelligence, geopolitical analysis, and regional reporting — directly within the ATAK interface.
 
----
+Add up to 30 custom RSS feeds or choose from 80 curated presets across four categories:
 
-## Features
-
-- OSINT data aggregation and visualization within ATAK
-- Integration with open-source intelligence sources
-- Works worldwide - not region locked
-- Seamless ATAK UI integration
+- Defense & Military
+- Intelligence & OSINT
+- Geopolitics
+- Regional
 
 ---
 
-## Installation
+## About the Developer
 
-Work in Progress - installation instructions will be added as the plugin matures.
+Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he developed this plugin as a free resource for the operator community.
 
----
+Additional plugins are currently in development, including AIS vessel tracking and team health monitoring integrations.
 
-## Development Status
-
-| Feature | Status |
-|---------|--------|
-| Core plugin framework | In Development |
-| OSINT data sources | In Development |
-| UI integration | In Development |
+**Contact:** saltyoperatorarizona@gmail.com
 
 ---
 
-## Requirements
+## License
 
-- ATAK (Android Team Awareness Kit) installed
-- Android device compatible with ATAK
-
----
-
-## Contributing
-
-This plugin is actively being developed. Contributions, bug reports, and feature requests are welcome via GitHub Issues.
+This plugin is provided free of charge with no warranty. Use at your own discretion. Not affiliated with or endorsed by the TAK Product Center.
