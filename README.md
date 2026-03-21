@@ -1,50 +1,25 @@
-# ATAK Arizona
+# ATAK Plugins by Stephan Pellegrini
 
-A growing collection of ATAK (Android Team Awareness Kit) resources and plugins built for Arizona operators.
+Free, open-source plugins for ATAK (Android Team Awareness Kit) built for the operator community.
 
 ---
 
 ## Plugins
 
-Custom ATAK plugins currently in development. Each plugin has its own dedicated folder with documentation.
+| Plugin | Version | Description | Status |
+|--------|---------|-------------|--------|
+| [OSINT](./Plugins/OSINT/) | 5.6 ATAK-CIV | Open source intelligence feed aggregator. Consolidate news, threat intel, geopolitical analysis and regional reporting directly in ATAK. Supports 30 custom RSS feeds or 80 curated presets across Defense, Intel, Geopolitics and Regional categories. Works worldwide. | Available |
 
-| Plugin | Description | Status |
-|--------|-------------|--------|
-| [OSINT](./Plugins/OSINT/) | Open Source Intelligence plugin for Arizona operations | In Development |
-
-More plugins coming soon!
+More plugins in development including AIS vessel tracking and team health monitoring.
 
 ---
 
-## Free KMZ / KML / Map Files
+## About the Developer
 
-A collection of free KMZ, KML, and map overlay files for Arizona. All files are ready to import into ATAK.
+Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. These plugins are provided free of charge for the operator community.
 
-[Browse the KMZ Files folder](./KMZ_Files/)
-
-| File | Description |
-|------|-------------|
-| 168hr_Weather_Forecast.kmz | 168-hour weather forecast overlay |
-| ADOT_Traffic_Cameras.kml | Arizona DOT traffic camera locations |
-| ARIZONA_511.kml | Arizona 511 traffic information |
-| AZ_County_Lines.zip | Arizona county boundary lines |
-| AZ_Hiking_Trails.kmz | Arizona hiking trail overlays |
-| Arizona_Sex_Offenders.zip | Arizona sex offender registry locations |
-| Embry_Riddle_Prescott_Airport_Cameras.zip | Embry Riddle Prescott Airport camera feeds |
-| Prescott_AZ_Cameras.kmz | Prescott, AZ camera locations |
-| Sky_Harbor_Cameras.zip | Phoenix Sky Harbor Airport camera feeds |
-| weathertools.kmz | General weather tools overlay |
+Contact: saltyoperatorarizona@gmail.com
 
 ---
 
-## Repository Structure
-
-- Plugins/ - ATAK plugins in development
--   - OSINT/ - Open Source Intelligence plugin
-    - - KMZ_Files/ - Free KMZ/KML map overlays for Arizona
-     
-      - ---
-
-      ## Contributing
-
-      Have a KMZ file, plugin idea, or improvement to share? Feel free to open a pull request or submit an issue.
+Arizona operators: Looking for free KMZ/KML map overlays for ATAK? [Click here to browse](./KMZ_Files/)
