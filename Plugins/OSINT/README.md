@@ -1,35 +1,34 @@
 # OSINT Plugin for ATAK
 
-**Version:** 5.6 — ATAK-CIV
+**Version:** 5.6 — ATAK-CIV | **Free & Open Source**
+
+---
+
+![OSINT Plugin Title Screen](images/08_plugin_title.png)
 
 ---
 
 ## About This Plugin
 
-OSINT is a free, open source intelligence feed aggregator for ATAK. It allows operators to consolidate multiple OSINT streams — news, threat intelligence, geopolitical analysis, and regional reporting — directly within the ATAK interface.
+OSINT is a free, open source intelligence feed aggregator for ATAK. It allows operators to consolidate multiple OSINT streams directly within the ATAK interface — news, threat intelligence, geopolitical analysis, and regional reporting — without ever leaving the app.
 
-Add up to 30 custom RSS feeds or choose from 80 curated presets across four categories:
+Add up to 30 custom RSS feeds or choose from 80 curated presets across four categories: Defense & Military, Intelligence & OSINT, Geopolitics, and Regional.
 
-- Defense & Military
-- Intelligence & OSINT
-- Geopolitics
-- Regional
-
-![Plugin Title Screen](images/08_plugin_title.png)
+![About This Plugin in-app screen](images/04_about_plugin.png)
 
 ---
 
 ## How to Access
 
-The OSINT plugin is accessible directly from the ATAK **Tools** menu. Open the Tools panel and tap **OSINT** to launch the plugin.
+Once installed, open the ATAK Tools menu and tap OSINT to launch the plugin. It sits alongside your other ATAK tools for quick access during operations.
 
-![ATAK Tools Menu](images/09_atak_tools_menu.png)
+![ATAK Tools Menu showing OSINT](images/09_atak_tools_menu.png)
 
 ---
 
 ## OSINT Feeds Panel
 
-The main **OSINT Feeds** panel displays all active feeds and their latest articles. Filter by category and see the total article and feed count at a glance. Tap **READ** on any article to open the full summary view.
+The main panel shows all active feeds and their latest articles in real time. Filter by category tab at the top, and see the total article and feed count at a glance. Tap READ on any article to open the full in-app summary.
 
 ![OSINT Feeds Main Panel](images/01_osint_feeds_main.png)
 
@@ -37,65 +36,53 @@ The main **OSINT Feeds** panel displays all active feeds and their latest articl
 
 ## Reading Articles
 
-Tapping **READ** opens a full article summary view within ATAK. The source, title, timestamp, and a detailed summary are displayed in a clean terminal-style interface.
+Tapping READ opens the article summary view directly inside ATAK. The source name, headline, timestamp, and full article summary are displayed in a clean monospace terminal-style interface.
 
-![Article Summary View](images/03_article_view.png)
+![Article Headline View](images/03_article_view.png)
 
-### Full Article Text
+Scroll down within the article view to read the full article body, complete with hashtags for quick topic identification.
 
-Scroll down within the article view to see the complete article body along with hashtags for quick topic identification.
+![Full Article Text with Hashtags](images/10_article_full_text.png)
 
-![Full Article Text](images/10_article_full_text.png)
+Tap OPEN ORIGINAL ARTICLE to launch the full source in ATAK's built-in browser — keeping you fully in your operational environment.
 
-### Open Original Article
-
-Tap **OPEN ORIGINAL ARTICLE** to launch the source website within ATAK built-in browser.
-
-![Open Original Article](images/11_open_original_article.png)
+![Open Original Article in Built-in Browser](images/11_open_original_article.png)
 
 ---
 
-## Adding Feeds
+## Adding & Managing Feeds
 
-Tap **+ ADD FEEDS** from the main panel to manage your feed sources.
+Tap + ADD FEEDS from the main panel to manage your sources. Choose from 80 curated presets organized by category, or enter any custom RSS feed URL from anywhere in the world.
 
 ### Curated Preset Feeds
 
-Browse and add presets with a single tap. The Defense and Military category includes sources such as DoD News, Military Times, Breaking Defense, and Stars and Stripes.
+80 hand-picked sources across four categories. Defense & Military includes feeds like DoD News, Military Times, Breaking Defense, and Stars & Stripes. Tap + to add any source instantly.
 
-![Add Feeds - Defense and Military](images/02_add_feeds_defense.png)
+![Curated Preset Feeds - Defense and Military](images/02_add_feeds_defense.png)
 
 ### Custom RSS Feed
 
-Enter any RSS feed URL manually. Give it a name, paste the feed URL, and tap **+ ADD CUSTOM FEED**.
+Add any RSS feed from anywhere in the world. Enter a name and paste the URL, then tap + ADD CUSTOM FEED. Supports up to 30 total active feeds.
 
 ![Custom RSS Feed Entry](images/12_custom_rss_feed.png)
 
 ### Refresh Rate
 
-Set how often your feeds automatically update. Options range from Auto 1 min to 24 hours.
+Control how frequently your feeds update. Options range from Auto (1 min) for live operational awareness to 24 hours for low-bandwidth environments.
 
 ![Refresh Rate Settings](images/05_refresh_rate.png)
 
 ---
 
-## In-App About Screen
-
-![About This Plugin Screen](images/04_about_plugin.png)
-
----
-
 ## About the Developer
 
-Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he developed this plugin as a free resource for the operator community.
+Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he developed this plugin as a free resource for the operator community. Additional plugins are currently in development, including AIS vessel tracking and team health monitoring integrations.
 
-Additional plugins are currently in development, including AIS vessel tracking and team health monitoring integrations.
-
-![About the Developer Screen](images/07_about_developer.png)
+![About the Developer](images/07_about_developer.png)
 
 ---
 
-## Contact and License
+## Contact & License
 
 **Contact:** saltyoperatorarizona@gmail.com
 
