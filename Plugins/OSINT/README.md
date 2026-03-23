@@ -12,12 +12,9 @@
 
 | Version | Type | Status |
 |---------|------|--------|
-| v5.6.3 | TAK.GOV Signed | Available on TAK.GOV |
-| v5.6.3 | Blue Shield (Community Signed) | Available on GitHub |
+| v5.6.3 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
 
-**TAK.GOV Version:** Download the official signed release from [TAK.GOV](https://tak.gov) — compatible with Play Store ATAK.
-
-**Blue Shield Version:** Download the community-signed APK from the [Releases](../../releases) page of this repository. Same trust level as the official Meshtastic ATAK plugin. Sideload ready.
+Download the APK from the [Releases](../../releases) page of this repository. Blue Shield certificate — TAK.GOV approved, same trust level as the official Meshtastic ATAK plugin. Compatible with Play Store ATAK (ATAK-CIV). Sideload ready.
 
 ---
 
