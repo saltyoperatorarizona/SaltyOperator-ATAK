@@ -7,7 +7,7 @@
 |---------|------|--------|
 | v1.0 | Debug Signed | Available on GitHub |
 
-Download the APK from the **[Releases](../../releases)** page of this repository.
+Download the APK from the **[Releases](https://github.com/saltyoperatorarizona/SaltyOperator-ATAK/releases)** page of this repository.
 
 AIS-Direct is distributed here on GitHub. It is not available on the Play Store or through TAK.GOV for public download. The APK has been submitted to TAK.GOV solely for debugging and Blue Shield certificate verification purposes.
 
@@ -39,3 +39,4 @@ Three data source tabs are available at the top:
 The FILTER section provides two options:
 - **All Vessels** — Displays every AIS-broadcasting vessel within your configured range and location
 - **Military** — Instantly filters the map to show only military vessels, enabling rapid maritime domain awareness in operational environments
+
