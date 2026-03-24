@@ -65,6 +65,76 @@ Advanced filtering options:
 
 When active, AIS-Direct populates the ATAK map with vessel icons showing real-time position, heading, speed, and call sign. Each vessel displays a data callout including: Call Sign, MMSI / CoT ID, Heading (degrees), Speed, and Accuracy. Vessels are rendered with directional heading indicators, allowing operators to quickly assess vessel movement and intent across large maritime areas.
 
+---
+
+## Getting API Keys & Data Source Setup
+
+AIS-Direct supports three data source backends. Here is how to get set up with each one.
+
+### 1. AISStream (Recommended — Free)
+
+AISStream is a free, community-supported WebSocket API that streams live global AIS data. It is the recommended data source for most users.
+
+**How to get your free API key:**
+
+1. Go to [aisstream.io](https://aisstream.io) and click **Get started**
+2. Click **Sign In With GitHub** — AISStream uses GitHub OAuth exclusively (no separate email/password account required)
+3. Once signed in, navigate to the **API Keys** page from your account dashboard
+4. Click **Create API Key** and copy the generated key
+5. Paste the key into the **API Key** field in AIS-Direct's AISStream tab
+
+**Notes:**
+- AISStream is in beta and provided without an SLA or guaranteed uptime
+- The WebSocket URL is: `wss://stream.aisstream.io/v0/stream`
+- For support, submit an issue at [github.com/aisstream/issues](https://github.com/aisstream/issues)
+
+---
+
+### 2. MarineTraffic (Paid Subscription)
+
+MarineTraffic is a commercial maritime data platform. API access requires a paid subscription starting at $10/month for basic vessel tracking, with higher tiers for advanced data.
+
+**How to get a MarineTraffic API key:**
+
+1. Create a free account at [marinetraffic.com](https://www.marinetraffic.com)
+2. Navigate to **My Account > Online Services** and select a plan (Basic starts at $10/month — a 7-day free trial is available)
+3. Once subscribed, go to your account **Developer / API** settings to find or generate your API key
+4. Enter the API key into the **API Key** field in AIS-Direct's MarineTraffic tab
+
+**Notes:**
+- MarineTraffic is a paid service — a free tier with API access is not available
+- MarineTraffic has been acquired by Kpler. Existing MarineTraffic accounts and API keys continue to function at [marinetraffic.com](https://www.marinetraffic.com)
+- If you only need vessel tracking without a paid subscription, use AISStream instead
+
+---
+
+### 3. NMEA/TCP (Local AIS Receiver — Free, Hardware Required)
+
+NMEA/TCP allows you to connect AIS-Direct directly to a physical AIS receiver on your local network. This is ideal for operators who have their own AIS hardware (e.g., a standalone AIS receiver or a vessel's onboard AIS transponder).
+
+**No API key required.** This option uses a direct TCP connection to a local device broadcasting NMEA 0183 AIS sentences.
+
+**How to set it up:**
+
+1. Connect an AIS receiver to your local network (via Ethernet, Wi-Fi bridge, or USB-to-serial adapter with a TCP server)
+2. Common AIS receiver options include:
+   - **Vesper Marine, Garmin, or Raymarine AIS transponders** with network output
+   - **RTL-SDR dongles** running software like AIS-Catcher or ShipPlotter to decode and serve AIS over TCP
+   - **ShipXplorer / AirNav AIS receivers** with built-in network sharing
+3. Find your receiver's IP address and TCP port number (commonly port **10110** or **2947** for NMEA streams — check your device's manual)
+4. In AIS-Direct's NMEA/TCP tab, enter the **IP address** and **port** of your AIS receiver
+5. Tap Connect — AIS-Direct will begin receiving live vessel data from your local hardware
+
+**Common NMEA TCP port references:**
+| Device / Software | Default Port |
+|---|---|
+| gpsd (Linux GPS/AIS daemon) | 2947 |
+| AIS-Catcher (RTL-SDR) | 10110 |
+| Vesper / Garmin AIS transponders | 10110 |
+| ShipPlotter | 10110 |
+
+---
+
 ## About the Developer
 
 Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he developed this plugin as a free resource for the operator community. AIS-Direct is a companion plugin to OSINT — the open source intelligence feed aggregator for ATAK — with additional plugins continuing in development.
