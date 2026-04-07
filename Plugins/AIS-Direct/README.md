@@ -1,5 +1,12 @@
 # AIS-Direct Plugin for ATAK
+
 **Version:** 3.0 — ATAK-CIV | Free & Open Source
+
+---
+
+![AIS-Direct Plugin](images/03_about_plugin.png)
+
+---
 
 ## Download
 
@@ -25,17 +32,25 @@ AIS-Direct supports multiple data source backends including AISStream (WebSocket
 
 Once installed, open the ATAK Tools menu and tap **AIS-Direct** to launch the plugin. It sits alongside your other ATAK tools — including OSINT — for quick access during maritime operations.
 
+![ATAK Tools Menu](images/01_atak_tools_menu.png)
+
 ## AIS-Direct Main Panel
 
 The main panel displays the current connection status and stream configuration. Toggle AIS-Direct ON or OFF directly from the panel header.
+
+![AIS-Direct Main Panel](images/02_ais_direct_panel.png)
 
 Three data source tabs are available at the top:
 - **AISStream** — WebSocket-based live global AIS feed (`wss://stream.aisstream.io/v0/stream`)
 - **MarineTraffic** — Integration with MarineTraffic API
 - **NMEA/TCP** — Direct connection to a local AIS receiver or NMEA TCP feed
 
+![AISStream Configuration](images/04_aisstream_config_api.png)
+
 ## Vessel Filters
 
 The FILTER section provides two options:
 - **All Vessels** — Displays every AIS-broadcasting vessel within your configured range and location
 - **Military** — Instantly filters the map to show only military vessels, enabling rapid maritime domain awareness in operational environments
+
+![AISStream Filters](images/05_aisstream_config_filters.png)
