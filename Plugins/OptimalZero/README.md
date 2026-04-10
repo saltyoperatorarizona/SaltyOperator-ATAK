@@ -1,4 +1,4 @@
-# Optimal Zero â MPBR Ballistic Calculator for ATAK
+# Optimal Zero MPBR Ballistic Calculator for ATAK
 
 **Version:** 1.0 â ATAK-CIV 5.6.0 | **Package:** com.optimalzero.plugin
 
