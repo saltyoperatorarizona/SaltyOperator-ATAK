@@ -43,7 +43,7 @@ Tap the **Optimal Zero** icon in the ATAK Tools menu to open the plugin side pan
 
 ### Plugin Open Side Panel
 
-The plugin opens in the ATAK side panel showing the OPTIMAL ZERO header, MPBR BALLISTIC CALCULATOR subtitle, OPTIC TYPE showing "Red Dot â MPBR optimize", and WEAPON/AMMUNITION showing "9mm / 147gr FMJ (Subsonic)".
+The plugin opens in the ATAK side panel showing the OPTIMAL ZERO header, MPBR BALLISTIC CALCULATOR subtitle, OPTIC TYPE showing "Red Dot MPBR optimize", and WEAPON/AMMUNITION showing "9mm / 147gr FMJ (Subsonic)".
 
 ![Plugin Open](images/01_plugin_open.png)
 
@@ -53,7 +53,7 @@ The plugin opens in the ATAK side panel showing the OPTIMAL ZERO header, MPBR BA
 
 Tap the OPTIC TYPE field to open the dropdown. Available selections:
 
-- Red Dot â MPBR optimize *(fully implemented)*
+- Red Dot MPBR optimize *(fully implemented)*
 - BDC Reticle *(Phase 2)*
 - MOA Reticle *(Phase 2)*
 - Mil Reticle *(Phase 2)*
@@ -86,7 +86,7 @@ OPTIC MOUNT set to Lower 1/3, with HEIGHT OVER BORE at 1.5", RISER HEIGHT at 0, 
 
 ---
 
-### Calculate MPBR â Solution Output
+### Calculate MPBR Solution Output
 
 Tap the gold **CALCULATE MPBR** button to generate the ballistic solution. Example output for 9mm/147gr Subsonic, 5" barrel, 980fps, HOB 1.50", VZ 3":
 
@@ -100,7 +100,7 @@ Tap the gold **CALCULATE MPBR** button to generate the ballistic solution. Examp
 
 ### Drop Table
 
-The SOLUTION includes a full DROP TABLE at 25ydâ75yd increments showing bullet drop in inches and in-zone checkmarks (â) at each distance.
+The SOLUTION includes a full DROP TABLE at 25ydâ75yd increments showing bullet drop in inches and in-zone checkmarks at each distance.
 
 ![Drop Table](images/07_drop_table.png)
 
@@ -129,7 +129,7 @@ The TRAJECTORY chart renders a full bullet arc from 0 to 600+ yards with the 65y
 | 9mm | 115gr FMJ, 124gr FMJ, 147gr FMJ Subsonic |
 | 45 ACP | 185gr JHP, 230gr FMJ |
 
-Barrel lengths: **4"â24"** covering PDW, pistol, PCC, carbine, and precision rifle.
+Barrel lengths: **4" to 24"** covering PDW, pistol, PCC, carbine, and precision rifle.
 
 ---
 
