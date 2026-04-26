@@ -72,5 +72,3 @@ Weapons zero calculator for ATAK. Finds the optimal zero distance to maximize Ma
 ## Developer
 
 Stephan Pellegrini
-RTX Contractor — RQ-4 Global Hawk Sensor Systems
-Osan AFB / Sacheon AFB, Republic of Korea
